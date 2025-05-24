@@ -7,6 +7,9 @@ PORT = 65432
 # The server will then respond with the last price of the stock from yfinance.
 # It would be neat to add a scheduling feature, along with a GUI that also houses all of the active ticker symbols.
 # This could be enabled for a user to select from like a drop down or query via a list so that they don't have to manually search beforehand.
+# NOTE: This was my initial testing shell document that I used for the client side of the socket script, however, this is just here as a baseplate for where I started.
+
+
 
 print()
 print()
