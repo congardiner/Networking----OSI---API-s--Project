@@ -75,6 +75,8 @@ This program was written in Python, using the folllowing libraries:
 
 # Future Work
 
-* It would be ideal to add a search bar to the Streamlit app to search for any ticker symbol / stock, and in order to do this I could add a basic webframe layout by either columning this into two sections so that the current static list for tech stocks is maintained as a way to showcase an example of how this could be used, which overall would make the front-end side of things extremelly easy to use and navigate as right now its limited to just a dropdown menu.
+* It would be ideal to add a search bar to the Streamlit app to search for any ticker symbol / stock, and in order to do this I could add a basic webframe layout by either columning this into two sections so that the current static list for tech stocks is maintained as a way to showcase an example of how this could be used, which overall would make the front-end side of things extremelly easy to use and navigate as right now its limited to just a dropdown menu. 
+  
 * An addition that would also be useful for this application is to add threads to the server application, this would allow for multiple clients to connect and make requests at the same time for stock prices; in conjunction with the schedule library, it would be incredibly efficient to have a daily update of stock prices, which could be automated and then stored in a csv file for reviewing long-term trends. This isn't currently implemented but would be a fantastic feature to add in the future.
+  
 * Wireshark could be considered to analyze the network traffic between the server and client, which would be a real-time view of packets being sent and received, it would an excellent asset to analyze the performance and efficiency of the network itself.
